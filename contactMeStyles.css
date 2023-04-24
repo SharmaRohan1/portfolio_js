@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto Slab", serif;
+    color: #003566;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .underline {
+    height: 3px;
+    width: 50px;
+    background: #ffc300;
+    margin: 5px auto;
+  }
+  
+  .nav-list li {
+    margin-top: 5px;
+  }
+  
+  /* navbar begins */
+  
+  .navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem 2.5rem;
+    min-height: 15vh;
+  
+    border-bottom: 3px solid #ffc300;
+  }
+  
+  .logo {
+    align-self: center;
+  }
+  
+  .logo span {
+    color: #ffc300;
+  }
+  
+  .nav-btn {
+    justify-self: flex-end;
+    align-self: center;
+    /* color: #ffc300; */
+    cursor: pointer;
+    padding: 3px;
+  }
+  
+  .nav-btn i:hover {
+    color: #ffc300;
+  }
+  
+  .nav-list-container {
+    justify-self: flex-end;
+    align-self: center;
+  
+    margin-top: 5px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  .nav-list a:hover {
+    color: #ffc300;
+  }
+  
+  /* 
+  navbar ends */
+  /* 
+  /* 
+  contact me section begins */
+  .contact-me-section {
+    background: #f6efdb;
+    min-height: 60vh;
+  }
+  
+  .contact-me-container {
+    padding: 5rem 2.5rem;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-me-container h2 {
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .contact-me-container p {
+    padding-top: 25px;
+  }
+  
+  .contact-me-container span {
+    color: #ffc300;
+  }
+  
+  /* 
+  contact me section ends */
+  
+  /* 
+  footer section begins */
+  
+  .footer-section {
+    background: #003566;
+  }
+  
+  .footer-container {
+    padding: 5rem;
+    height: 40vh;
+    text-align: center;
+  }
+  
+  .footer-container ul {
+    padding-bottom: 20px;
+  }
+  
+  .footer-container li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  
+  .footer-container i {
+    color: #ffc300;
+    transform: scale(2);
+  }
+  
+  .footer-container p {
+    color: white;
+  }
+  
+  /* 
+  footer section ends */
+  
+  @media screen and (min-width: 700px) {
+    .nav-btn {
+      display: none;
+    }
+  
+    .nav-list-container {
+      display: block;
+      margin-top: 0;
+    }
+  
+    .nav-list li {
+      display: inline-block;
+      padding-right: 5px;
+    }
+  }
+  
